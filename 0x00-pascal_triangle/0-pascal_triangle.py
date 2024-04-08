@@ -1,8 +1,11 @@
-# Define the function
+#!/usr/bin/python3
+"""AN Interview Chanllenge on Pascal Traingle"""
+
+
 
 def pascalTriangle(num):
-
-"""Create a list to store all rows"""
+    """ Accepts a number(i.e an integer) and calculate the pascal traingle based on the nth number of rows """
+# Create a list to store all rows
     triangle = []
 # Get a variable to store the number of rows.
     for rows_num in range(num):
@@ -18,4 +21,3 @@ def pascalTriangle(num):
 
         triangle.append(row)
     return triangle
-
