@@ -3,12 +3,12 @@
 
 
 
-def pascalTriangle(num):
+def pascal_triangle(n):
     """ Accepts a number(i.e an integer) and calculate the pascal traingle based on the nth number of rows """
 # Create a list to store all rows
     triangle = []
 # Get a variable to store the number of rows.
-    for rows_num in range(num):
+    for rows_num in range(n):
 
         # Create a row to represent the rows
         row = [None for _ in range(rows_num+1)]
