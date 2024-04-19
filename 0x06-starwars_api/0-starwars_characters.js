@@ -24,3 +24,4 @@ function printCharacters (characters, index) {
     }
   });
 }
+
